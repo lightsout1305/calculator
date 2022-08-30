@@ -1,6 +1,6 @@
-a = float(input())
-b = float(input())
-c = input()
+a = float(input('Enter first digit: '))
+b = float(input('Enter second digit: '))
+c = input('Enter operator: ')
 if c == '+':
     print(a + b)
 elif c == '-':
